@@ -20,24 +20,24 @@ else{<br>
     return 0;<br>
 }<br>
 
-include<stdio.h>
+include<stdio.h><br>
 
 
-int main(){
-    int age;
-printf("enter age : ");
-scanf("%d", &age);
+int main(){<br>
+    int age;<br>
+printf("enter age : ");<br>
+scanf("%d", &age);<br>
 
-if(age >= 18){
-printf("adult \n");
-}
-else if(age > 13 && age <18){
-    printf("teenager \n");
-}
-else{
-    printf("child");
-}
-return 0;
-}
+if(age >= 18){<br>
+printf("adult \n");<br>
+}<br>
+else if(age > 13 && age <18){<br>
+    printf("teenager \n");<br>
+}<br>
+else{<br>
+    printf("child");<br>
+}<br>
+return 0;<br>
+}<br.
     
     
