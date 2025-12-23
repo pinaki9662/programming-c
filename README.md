@@ -38,6 +38,27 @@ else{<br>
     printf("child");<br>
 }<br>
 return 0;<br>
-}<br.
-    
+}<br>  
+
+
+  include<stdio.h><br>
+  
+int main(){<br>
+    char ch;<br>
+    printf("enter character :");<br>
+    scanf("%c", &ch);<br>
+
+    if(ch >= 'A' && ch <= 'Z') {<br>
+        printf("upper case \n");<br>
+    }<br>
+    else if(ch >= 'a' && ch <='z') {<br>
+        printf("lower case \n");<br>
+    }<br>
+    else{<br>
+        printf("not english letter \n");<br>
+    }<br>
+      return 0;<br>
+      } <br>
+
+  
     
