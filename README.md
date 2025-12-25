@@ -20,7 +20,7 @@ else{<br>
     return 0;<br>
 }<br>
 
-include<stdio.h><br>
+#include<stdio.h><br>
 
 
 int main(){<br>
@@ -41,7 +41,7 @@ return 0;<br>
 }<br>  
 
 
-  include<stdio.h><br>
+  #include<stdio.h><br>
   
 int main(){<br>
     char ch;<br>
@@ -61,4 +61,31 @@ int main(){<br>
       } <br>
 
   
+
+#include<stdio.h><br>
+
+int main(){<br>
+   int n;<br>
+   printf("enter number : ");<br>
+   scanf("%d", &n);<br>
+
+   int sum = 0;<br>
+   for(int i=1, j=n;  i<=n && j>=1; i++,j--){<br>
+    sum = sum + i;<br>
+    printf("%d\n",j);<br>
+   }<br>
+   printf("sum is %d \n", sum);<br>
+   
+
+    
+
+
+    
+    
+
+    return 0;<br>
+}<br>
+
+
+
     
