@@ -76,15 +76,32 @@ int main(){<br>
    }<br>
    printf("sum is %d \n", sum);<br>
    
+return 0;<br>
+}<br>
+
+
+
 
     
+#include<stdio.h><br>
 
-
-    
-    
+int main(){<br>
+int n;<br>
+printf("enter number :");<br>
+scanf("%d \n",&n);<br>
+ 
+int fact = 1;<br>
+for(int i=1; i<=n; i++){<br>
+    fact = fact * i;<br>
+}<br>
+printf("final factorial is %d", fact);<br>
 
     return 0;<br>
 }<br>
+
+
+    
+
 
 
 
