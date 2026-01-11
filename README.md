@@ -99,7 +99,29 @@ printf("final factorial is %d", fact);<br>
     return 0;<br>
 }<br>
 
+#include <stdio.h><br>
+int fib(int n);<br>
+int main() {<br>
+    fib(6);<br>
+    return 0;<br>
+}<br>
+int fib(int n){<br>
 
+if (n==0){<br>
+    return 0;<br>
+}<br>
+if (n==1){<br>
+    return 1;<br>
+}<br>
+int fibNm1=fib(n-1);<br>
+int fibNm2=fib(n-2);<br>
+int fibn=fibNm1+fibNm2;<br>
+printf("fib of %d is %d\n",n,fibn);<br>
+
+}<br>
+
+
+    
     
 
 
