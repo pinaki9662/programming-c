@@ -121,13 +121,13 @@ printf("fib of %d is %d\n",n,fibn);<br>
 }<br>
 
 
-#include <stdio.h>
-#include <math.h>
+#include <stdio.h><br>
+#include <math.h><br>
 
-int main() {
-    int x1, y1, x2, y2;
-    int dx, dy;
-    float abs_dx, abs_dy, total_distance;
+int main() {<br>
+    int x1, y1, x2, y2;<br>
+    int dx, dy;<br>
+    float abs_dx, abs_dy, total_distance;<br>
 
     printf("Enter x1 y1: ");
     scanf("%d %d", &x1, &y1);
