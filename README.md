@@ -121,7 +121,32 @@ printf("fib of %d is %d\n",n,fibn);<br>
 }<br>
 
 
-    
+#include <stdio.h>
+#include <math.h>
+
+int main() {
+    int x1, y1, x2, y2;
+    int dx, dy;
+    float abs_dx, abs_dy, total_distance;
+
+    printf("Enter x1 y1: ");
+    scanf("%d %d", &x1, &y1);
+
+    printf("Enter x2 y2: ");
+    scanf("%d %d", &x2, &y2);
+
+    dx = x2 - x1;
+    dy = y2 - y1;
+
+    abs_dx = sqrt(dx * dx);
+    abs_dy = sqrt(dy * dy);
+
+    total_distance = abs_dx + abs_dy;
+
+    printf("Manhattan Distance = %.0f", total_distance);
+
+    return 0;
+    }
     
 
 
