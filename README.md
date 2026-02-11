@@ -183,5 +183,19 @@ int main(){<br>
     return 0;<br>
 }<br>
     
+#include<stdio.h><br>
 
+int main(){<br>
+  int age = 22;<br>
+  int _age = 23;<br>
+  int *ptr = &age;<br>
+  int*_ptr = &_age;<br>
+  
+  printf("difference = %u\n",ptr-_ptr);<br>
+  _ptr =&age;<br>
+  printf("comparison = %u\n", ptr == _ptr);<br>
+  
+   
+    return 0;<br>
+}<br>
     
