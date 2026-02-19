@@ -198,4 +198,55 @@ int main(){<br>
    
     return 0;<br>
 }<br>
-    
+   #include<stdio.h><br>
+int main(){<br>
+    int a,b,c,n=1;<br>
+    do{<br>
+        printf("enter your choice \n");<br>
+        printf("enter 1 for addition \n");<br>
+        printf("enter 2 for subtraction \n");<br>
+        printf("enter 3 for multiplication  \n");<br>
+        printf("enter 4 for division \n");<br>
+        printf("enter 5 for exit \n");<br>
+        scanf("%d",&n);<br>
+        switch(n){<br>
+            case 1:<br>
+            printf("enter 2 no:\n");<br>
+            scanf("%d%d",&a,&b);<br>
+            c = a + b;<br>
+            printf("addition = %d\n",c);<br>
+            break;<br>
+             case 2:<br>
+            printf("enter 2 no:\n");<br>
+            scanf("%d%d",&a,&b);<br>
+            c = a - b;<br>
+            printf("subtraction = %d\n",c);<br>
+            break;<br>
+             case 3:<br>
+            printf("enter 2 no:\n");<br>
+            scanf("%d%d",&a,&b);<br>
+            c = a * b;<br>
+            printf("mltiplication = %d\n",c);<br>
+            break;<br>
+
+             case 4:<br>
+            printf("enter 2 no:\n");<br>
+            scanf("%d%d",&a,&b);<br>
+            c = a / b;<br>
+            printf("division = %d\n",c);<br>
+            break;<br>
+             case 5:<br>
+            printf("ready to exit from execution \n");<br>
+            break;<br>
+            default:<br>
+            printf("wrong choice\n");<br>
+        }<br>
+    }<br>
+    while(n != 5);<br>
+    return 0;   <br>
+}<br>
+
+   
+
+
+ 
